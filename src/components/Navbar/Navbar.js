@@ -37,7 +37,7 @@ const Navbar = () => {
         <div className="navbaricons">
           <PiCommandThin />
           <MdNotificationsNone />
-          <label onClick={handleOnClick}>
+          <label onClick={handleOnClick} style={{ marginTop: "4px" }}>
             {theme === "dark" ? <CiLight /> : <MdOutlineDarkMode />}
           </label>
 
